@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vb;
+}
+
+#root {
+  height: 100%;
+}
+
+@media screen and (min-width: 601px) {
+  .grid.grid-cols-3.gap-3.mx-auto {
+    width: 50%;
+  }
+}
